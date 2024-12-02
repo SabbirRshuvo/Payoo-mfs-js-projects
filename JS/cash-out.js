@@ -25,4 +25,8 @@ document
     } else {
       alert("please provide the pin");
     }
+
+    // empty string
+    document.getElementById("cash-out-amount").value = "";
+    document.getElementById("cash-out-pin").value = "";
   });
